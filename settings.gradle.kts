@@ -5,3 +5,4 @@ includeBuild("build-logic")
 includeBuild("platforms")
 
 includeBuild("libs")
+includeBuild("services/first-service")

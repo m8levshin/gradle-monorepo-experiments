@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 
 include("common-domain-core")
 include("common-ktor")
+include("kotlin-serdes")

@@ -1,4 +1,4 @@
-package `in`.mlevsh.gradlexp.domain
+package `in`.mlevsh.gradlemonorepo.domain
 
 import java.time.LocalDateTime
 
