@@ -1,3 +1,3 @@
 subprojects {
-    group = "in.mlevs.gradle-monorepo.platforms"
+    group = "com.mlevshin.gradle-monorepo.platforms"
 }

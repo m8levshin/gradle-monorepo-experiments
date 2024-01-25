@@ -1,5 +1,5 @@
 plugins {
-    id("in.mlevsh.gradle-monorepo.build-plugin.kotlin-lib")
+    id("com.mlevshin.gradle-monorepo.build-plugin.kotlin-lib")
 }
 
 

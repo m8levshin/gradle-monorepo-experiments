@@ -1,3 +1,5 @@
+rootProject.name = "build-logic"
+
 pluginManagement {
     repositories {
         gradlePluginPortal()
@@ -13,7 +15,5 @@ dependencyResolutionManagement {
 }
 
 includeBuild("../platforms")
-
-rootProject.name = "build-logic"
 
 include("kotlin")

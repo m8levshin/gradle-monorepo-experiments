@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-    implementation(platform("in.mlevs.gradle-monorepo.platforms:gradle-plugins-platform"))
+    implementation(platform("com.mlevshin.gradle-monorepo.platforms:gradle-plugins-platform"))
 
 
     implementation("org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin")

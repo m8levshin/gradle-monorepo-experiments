@@ -1,13 +1,10 @@
 plugins {
-    id("in.mlevsh.gradle-monorepo.build-plugin.kotlin-lib")
-    id("in.mlevsh.gradle-monorepo.build-plugin.ktor-app")
+    id("com.mlevshin.gradle-monorepo.build-plugin.kotlin-lib")
+    id("com.mlevshin.gradle-monorepo.build-plugin.ktor-app")
 }
 
 dependencies {
-
     implementation(project(":domain-core"))
-
-    implementation("in.mlevs.gradle-monorepo.libs:common-ktor")
-
+    implementation("com.mlevshin.gradle-monorepo.libs:common-ktor")
     implementation("io.ktor:ktor-server-netty")
 }
